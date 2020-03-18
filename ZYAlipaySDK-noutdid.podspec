@@ -1,4 +1,3 @@
-require 'json'
 
 
 Pod::Spec.new do |s|
@@ -23,8 +22,7 @@ Pod::Spec.new do |s|
   s.author              = "wuzhiyu"
   s.source              = { :git => "https://github.com/wzy911229/ZYAlipaySdk-noutdid.git"}
   s.requires_arc        = true
-  s.platform            = :ios, "9.0"
-  s.requires_arc        = true
+  s.ios.deployment_target = "9.0"
   s.libraries = "z","c++"
   s.frameworks          = 'AssetsLibrary','LocalAuthentication','MessageUI','CoreMotion', "SystemConfiguration", "CFNetwork"
   s.vendored_frameworks = 'lib/*.framework'
