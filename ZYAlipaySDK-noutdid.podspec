@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.ios.deployment_target = "9.0"
   s.libraries = "z","c++"
-  s.frameworks          = 'AssetsLibrary','LocalAuthentication','MessageUI','CoreMotion', "SystemConfiguration", "CFNetwork"
+  s.frameworks          = 'AssetsLibrary','LocalAuthentication', 'CoreMotion', "SystemConfiguration", "CFNetwork", "WebKit", 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics','CoreText', 'QuartzCore'
   s.vendored_frameworks = 'lib/*.framework'
   s.resources = "lib/*.bundle"
   s.static_framework = true
