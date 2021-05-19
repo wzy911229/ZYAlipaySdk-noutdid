@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name                = "ZYAlipaySDK-noutdid"
-  s.version             = "15.7.4"
+  s.version             = "15.8.3"
   s.summary             = 'ZYAlipaySDK-noutdid'
   s.description         = <<-DESC
                             React Native apps are built using the React JS
